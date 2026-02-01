@@ -90,7 +90,7 @@ Compatible with most PC racing simulators.
 
 ## 📸 Screenshots
 
-*(Add screenshots of wiring and web UI here)*
+*(Coming Soon)*
 
 ---
 
