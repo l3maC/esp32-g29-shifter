@@ -29,14 +29,14 @@ The project features **web-based calibration**, **persistent gear mapping**, and
 
 ## 🔌 Wiring Overview
 
-| G29 Shifter  |  DB9 | ESP32-S3                             | 
-|------------  |------|--------------------------------------|
-| X Axis       |   4  |ADC Pin (X_AXIS_PIN)                  |   1 
-| Y Axis       |   8  |ADC Pin (Y_AXIS_PIN)                  |   2
-| Reverse      |   2  |Digital Input (REVERSE_PIN, pull-up)  |   3
-| GND          |   6  |GND                                   |  GND
-| 5V           |   3  |External 5V Supply                    |
-| 5V           |   7  |External 5V Supply                    |
+| G29 Shifter  |  DB9 | ESP32-S3                             |       |
+|------------  |------|--------------------------------------|-------|
+| X Axis       |   4  |ADC Pin (X_AXIS_PIN)                  |   1   | 
+| Y Axis       |   8  |ADC Pin (Y_AXIS_PIN)                  |   2   |
+| Reverse      |   2  |Digital Input (REVERSE_PIN, pull-up)  |   3   |
+| GND          |   6  |GND                                   |  GND  |
+| 5V           |   3  |External 5V Supply                    |       |
+| 5V           |   7  |External 5V Supply                    |       |
 
 ⚠️ **5V + is connected to DB9 pins 3 & 7 and ground/negative is connected to ESP GND.**
 
